@@ -1,6 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+
 }
 .header_intro{
     width: 100%;
@@ -55,6 +61,7 @@
     background-color:#FFF;
     border-radius: 3px;
     border:0px;
+
 }
 .up_form_email{
     background-image: url(img/email.png);
@@ -67,4 +74,158 @@
     background-color: #ffbb42;
     border: 0px;
 }
+.up_img_laptop{
+    display: block;
+    margin: auto;
+    
+}
+.up_img_bar{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -325px;
+} 
+.our_service_intro{
+    margin-top: 201px;
+}
+.our_intro_text1{
+    text-align: center;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color:#394b50;
+    font-size: 30px;
+    font-weight: 900;
 
+}
+.our_intro_text2{
+    text-align: center;
+    font-family: "Gotham - Black";
+    color:#879295;
+    font-size: 16px;
+    font-weight: 400;
+}
+.our_services{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.our_service_img{
+    max-width: 75px;
+    max-height: 75px;
+    width: 100%;
+}
+.our_services_1, .our_services_2,
+.our_services_3, .our_services_4,
+.our_services_5, .our_services_6{
+    width: 45%;
+    display: flex;
+    margin-bottom: 79px;
+    margin-right: 55px;
+}
+.our_service_text{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+.our_service_text_intro{
+    color: #394b50;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+    /*   ABOUT US    */
+.about_us{
+    margin-top: 155px;
+    background-color:#ffc155;
+    width: 100%;
+    height: 623px;
+}
+.about_img{
+    width: 50%;
+    height: 623px;
+    position: absolute;
+}
+.about_text{
+    position: absolute;
+    left: 56%;
+    width: 30%;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 164px;
+}
+.about{
+    color: #ffffff;
+    font-family: "Gotham - Black";
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.read_more{
+    margin-top: 33px;
+    width: 145px;
+    height: 46px;
+    background-color:#ffc155;
+    border-width: 1px;
+    border-radius: 1px;
+    border-color: #000000;
+
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.price{
+    background-color:#e7edf3;
+}
+.intro_price{
+    margin-top: 137px;
+
+    text-align: center;
+    color: #394b50;
+    font-family: "Gotham - Black";
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.intro_subtitle{
+    color: #75888d;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: none;
+}
+.price_holer{
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start,
+.gold{
+    width: 391px;
+    height: 441px;
+    text-align: center;
+    
+    border: solid 1px #ccd5df;
+    background-color:white;
+   
+}
+.premium{
+    width: 395px;
+    height: 501px;
+    text-align: center;
+
+    border: solid 1px #ccd5df;
+    background-color:white;
+}
+.line_price{
+    width: 90%;
+    background-color: #e2e9f0;
+    
+}

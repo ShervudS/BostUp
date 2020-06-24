@@ -225,7 +225,52 @@
     background-color:white;
 }
 .line_price{
-    width: 90%;
-    background-color: #e2e9f0;
-    
+    width: 85%;
+    border-color:#e2e9f0;
+    margin: 0 auto;
+}
+.price_many{
+    color:#ffbb42;
+    font-size: 60px;
+    font-weight: 800px;
+    font-family: 'Lato';
+}
+.price_text_B{
+    font-family: "Lato";
+    color: #818b95;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 57px;
+}
+.price_text1, .price_text2, .price_text3, .price_text4{
+    font-family: "Lato";
+    color: #818b95;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+}
+
+.price_text1{
+    margin-bottom: 33px;
+}
+.price_text2, .price_text3, .price_text4{
+    margin: 6px;
+}
+
+
+.started{
+    margin-top: 35px;
+    width: 131px;
+    height: 42px;
+    background-color:#ffbb42;
+    border: 1px solid #ffbb42;
+    border-radius: 2px;
+
+    color:#fff;
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 600px;
 }

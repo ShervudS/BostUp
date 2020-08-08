@@ -5,25 +5,29 @@
 }
 .container{
     max-width: 1170px;
-    margin: auto;
-
+    margin: 0 auto;
 }
 .header_intro{
+    margin: 10px 0 10px 0;
     width: 100%;
 }
 .intro{
-    height: 93px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.nav_logo{
+    display: flex;
+    justify-content: space-around;
+}
 .nav_logo_a{
     text-decoration: none;
-    color: #000000; 
+    color: #000; 
     font-size: 14px;
     font-family: 'lato';
+    white-space: nowrap;
     text-transform: uppercase;
-    padding:  20px;
+    padding:  15px 20px;
 }
 .nav_logo_a:hover{
     color:#fff;
@@ -90,6 +94,7 @@
     height: 46px;
     background-color: #ffbb42;
     border: 0px;
+    cursor: pointer;
 }
 .up_img_laptop{
     display: block;
@@ -133,10 +138,8 @@
     max-height: 75px;
     width: 100%;
 }
-.our_services_1, .our_services_2,
-.our_services_3, .our_services_4,
-.our_services_5, .our_services_6{
-    width: 45%;
+.our_services_item{
+    max-width: 45%;
     display: flex;
     margin-bottom: 79px;
     margin-right: 55px;
@@ -189,6 +192,7 @@
     cursor: pointer;
     border-color: #000;
 }
+
      /* Price */
 .price{
     background-color:#e7edf3;
@@ -503,4 +507,33 @@
     display: block;
     text-align: center;
     margin-top: 30px;
+}
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 1000px;
+    } 
+    .our_services{
+        justify-content: center;
+    }
+}
+@media (max-width: 900px){
+    .container{
+        max-width: 760px;
+    }
+    .intro{
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .nav_logo{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .our_services_item{
+        max-width: 90%;
+    }
+}
+@media (max-width: 320px){
+
 }
